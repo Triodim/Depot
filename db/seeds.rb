@@ -18,7 +18,7 @@ Product.delete_all
 Product.create!(title: 'Rails, Angular, Postgres, and Bootstrap',
                 description:
                     %{<p>
-      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
+      <strong><em>Powerful, Effective, and Efficient Full-Stack Web Development</em></strong>
       As a Rails developer, you care about user experience and performance,
       but you also want simple and maintainable code. Achieve all that by
       embracing the full stack of web development, from styling with
@@ -29,7 +29,7 @@ Product.create!(title: 'Rails, Angular, Postgres, and Bootstrap',
       environment.
       </p>},
                 image_url: 'dcbang.jpg',
-                price: 45.00)
+                price: 50.00)
 # . . .
 Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
                 description:
