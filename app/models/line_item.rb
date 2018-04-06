@@ -8,7 +8,7 @@ class LineItem < ApplicationRecord
   end
 
   def decrement
-    if self.quantity > 1
+    if quantity > 1
       self.quantity -= 1
     else
       self.destroy
